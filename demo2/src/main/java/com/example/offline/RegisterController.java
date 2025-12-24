@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class RegisterController {
 
-    @PostMapping("/register")
+    @GetMapping("/register")
     public String register(@RequestBody User user) {
         System.out.println("Name: " + user.getName());
         System.out.println("Email: " + user.getEmail());
@@ -18,6 +18,7 @@ public class RegisterController {
     //     return "Welcome In Spring Boot";
     // }
 }
+
 
 
 
