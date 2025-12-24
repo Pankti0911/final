@@ -1,6 +1,7 @@
 package com.example.offline;
 
 import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
 
 @Controller
 public class RegisterController {
@@ -17,6 +18,7 @@ public class RegisterController {
     //     return "Welcome In Spring Boot";
     // }
 }
+
 
 
 
