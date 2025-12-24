@@ -9,6 +9,7 @@ public class RegisterController {
     public String register(@RequestBody User user) {
         System.out.println("Name: " + user.getName());
         System.out.println("Email: " + user.getEmail());
-        return "OK";
+        return "register";
     }
 }
+
