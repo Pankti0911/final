@@ -1,0 +1,8 @@
+{
+  "name": "Offline Register",
+  "short_name": "Register",
+  "start_url": "/register.html",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff"
+}
