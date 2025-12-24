@@ -2,7 +2,7 @@ package com.example.offline;
 
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+@Controller
 public class RegisterController {
 
     @PostMapping("/register")
@@ -17,6 +17,7 @@ public class RegisterController {
     //     return "Welcome In Spring Boot";
     // }
 }
+
 
 
 
